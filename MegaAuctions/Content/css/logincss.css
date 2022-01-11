@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #444;
+    font-family: calibri;
+}
+
+.login123 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    margin: 30px 0px 30px 0px;
+    width: 100vw;
+    height: auto;
+}
+
+.formlogin {
+    border: 0.5px solid black;
+    padding: 0px 30px;
+    box-shadow: 5px 5px 10px;
+    background-image: linear-gradient(to right, #a7c8fc, #f1f3fe);
+}
+.formlogin .login {
+    text-align: center;
+    position: relative;
+    width: 400px;
+    height: 550px;
+}
+
+.formlogin input, .formlogin button {
+    width: 100%;
+    border: 0;
+    border-radius: 20px;
+}
+
+    .formlogin input {
+        border-bottom: 2px solid #444;
+        font-size: 18px;
+        padding: 12px 40px 12px 20px;
+    }
+
+
+    .formlogin input, .formlogin button, .formlogin .group i, .formlogin p, .formlogin a {
+        font-size: 18px;
+        height: 60px;
+        margin-bottom: 10px
+    }
+
+.formlogin .group {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+    .formlogin .group i {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+    .formlogin button {
+        padding: 12px;
+        background-image: linear-gradient(to right, #3a86ff, purple);
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+    .formlogin button, .formlogin button i {
+        color: #ffffff;
+    }
+
+.formlogin button i {
+    margin-right: 5px;
+}
+
+.formlogin p {
+    margin-bottom: 20px;
+}
+
+    .formlogin i.fa.fa-empire, .formlogin a {
+        color: #3a86ff;
+    }
+
+.formlogin i.fa.fa-empire {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.formlogin h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.formlogin input:focus, .formlogin input:focus::placeholder, .formlogin input:focus + i {
+    color: #ff1464;
+}
+
+.formlogin input:focus, .formlogin button:focus {
+    outline: 0;
+}
+
+
+/*.login123:before, .login123:after {
+    content: "";
+    position: absolute;
+    height: 300px;
+    width: 500px;
+}
+
+.login123:before {
+    background-image: linear-gradient(to right, #ff1464, purple);
+    bottom: 0;
+    left: 0;
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+
+.login123:after {
+    background-image: linear-gradient(to right, purple, #ff1464);
+    top: 0;
+    right: 0;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}*/
+
+@media (max-width: 767px){
+    .login123:before, .login123:after {
+        height: 150px;
+        width: 300px;
+    }
+}
